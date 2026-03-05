@@ -425,6 +425,6 @@ batch transcription
 
 without needing to configure model sizes manually.
 
-License
+### License ###
 
 MIT License
