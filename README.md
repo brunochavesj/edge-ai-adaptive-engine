@@ -58,30 +58,39 @@ Client Hardware
       │
       │
       ▼
+      
 Device Detection (PHP + UA)
       │
       ▼
+      
 GPU Capability Probe (WebGPU)
       │
       ▼
+      
 Hardware Scoring System
       │
       ▼
+      
 Tier Selection
       │
       ▼
+      
 Backend Selection
   ├─ ONNX WebGPU
   └─ whisper.cpp CPU
       │
       ▼
+      
 Model Selection
       │
       ▼
+      
 Memory Estimation
       │
       ▼
+      
 Confidence & Fallback
+
 
 ### Hardware Detection Pipeline ###
 
@@ -411,7 +420,9 @@ deterministic behavior across devices
 
 It enables production-grade local AI inference directly in the browser.
 
-Use Case: Cowslator
+### Use Case: Cowslator ###
+
+link: https://cowslator.space
 
 The Adaptive Model Engine is used in Cowslator to dynamically choose the best Whisper model for transcription workloads.
 
